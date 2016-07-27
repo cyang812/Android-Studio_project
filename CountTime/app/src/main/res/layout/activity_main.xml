@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tech.cyang.counttime.MainActivity">
+
+    <EditText
+        android:id="@+id/inputTime"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="请输入时间"
+        >
+
+    </EditText>
+
+    <Button
+        android:text="get Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getTime"
+        />
+
+    <TextView
+        android:id="@+id/showTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textSize="40sp"
+        android:textColor="#e61e93"
+        />
+
+    <Button
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        />
+
+    <Button
+        android:id="@+id/stopTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        />
+
+
+
+</LinearLayout>
