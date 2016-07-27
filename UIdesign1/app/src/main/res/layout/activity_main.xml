@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech.cyang.uidesign1.MainActivity">
+
+    <TextView
+        android:text="请在蓝色区域滑动"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/myview" />
+
+    <RelativeLayout
+        android:id="@+id/myview"
+        android:layout_height="395dp"
+        android:layout_width="176dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="author:cyang  version:1.0"
+        android:textSize="30sp"
+        android:textColor="#e91e63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/myview" />
+
+</RelativeLayout>
